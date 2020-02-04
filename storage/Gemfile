@@ -19,6 +19,8 @@ gem "google-cloud-storage"
 # [END storage_dependencies]
 
 group :test do
+  gem "httparty", "~> 0.17.3"
+  gem "minitest", "~> 5.13"
   gem "rspec"
   gem "rspec-retry"
 end
